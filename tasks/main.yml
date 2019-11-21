@@ -1,0 +1,9 @@
+---
+
+  - name: updating apt cache
+    apt: update_cache=yes
+
+  - name: upgrading everything installed via apt (please be patient!)
+    apt: upgrade=yes
+
+...
